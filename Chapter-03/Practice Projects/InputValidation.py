@@ -1,4 +1,4 @@
-#collatz sequence
+#collatz sequence with input validation
 def collatzseq(n):
     while n!=1:
         if n%2==0:
