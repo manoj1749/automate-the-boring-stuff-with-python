@@ -12,7 +12,7 @@
 11. A list has two ways to remove values from a list, one is remove() function and another is delete statement.
 12. The lists and strings both can be sliced and both have indexes, both of them can be concatenated and replicated, both can be passed through len() function for counting, both can be used in for loops and in and not in operators can also be used with them.
 13. Lists are mutable, whereas Tuples are immutable form of list data type.
-14.     If the tuple value that has just the integer value 42 in it then it is represented as (42,). That comma is referred as a trailing coma which indicates that it is a tuple data type.
+14. If the tuple value that has just the integer value 42 in it then it is represented as (42,). That comma is referred as a trailing coma which indicates that it is a tuple data type.
 15. Using tuple() we can get tuple form from list and using list() we can get list form from tuple.
 16. Variables that contain list directly don't contain lists directly, they contain references to list values.
 17. copy.copy() is used for copying lists, whereas copy.deepcopy() will also copy the lists which are in the list.
