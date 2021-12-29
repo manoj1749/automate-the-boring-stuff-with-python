@@ -1,4 +1,4 @@
-## Solutions for practice questions in Chapter-5
+## Solutions for practice questions in Chapter-6
 1. 
 2. 
 3. 
