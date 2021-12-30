@@ -63,14 +63,14 @@ Answer
 > - The 1st block of code starts at print('eggs') line and in this block the other 2 blocks are there, 2nd block of code is print('bacon') which is a single line and 3rd block od code is print('spam') which is also a single line.
 ### 9. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
 - Answer
- ```python
-   if spam == 1:
+```python
+if spam == 1:
        print('Hello')
-   elif spam == 2:
+elif spam == 2:
        print('Howdy')
-   else:
+else:
        print('Greetings!')
-   ```
+```
 ### 10. What keys can you press if your program is stuck in an infinite loop?
 > - We use ctrl+C for exiting a program struck in an infinite loop.
 ### 11. What is the difference between break and continue?
