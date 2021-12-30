@@ -4,12 +4,14 @@
 2. 
     > - The three Boolean operators are and, or & not.
 3. 
-   > - |**and-operator**|**value**|
+    ```   
+       |**and-operator**|**value**|
        |----|----|
        |False and False|False|
        |False and True|False|
        |True and True|True|
        |True and False|False|
+    ```
    
    > - |**or-operator**|**value**|
        |----|----|
