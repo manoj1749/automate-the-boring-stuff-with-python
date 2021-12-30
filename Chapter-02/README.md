@@ -24,6 +24,7 @@
 |not False|True|
 
 ### 4. 
+- Answer
    ```python
    (5 > 4) and (3 == 5) evaluates to False.
    not (5 > 4) evaluates to False.
