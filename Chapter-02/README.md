@@ -1,8 +1,8 @@
 ## Solutions for practice questions in Chapter-2
 ### 1. 
     > - The two values in Boolean data type are True and False, they were written with their first letter in uppercase and remaining letters in lowercases like - True, False.
-### 2. 
-    > - The three Boolean operators are and, or & not.
+### 2. hehe
+> - The three Boolean operators are and, or & not.
 ### 3.    
     |**and-operator**|**value**|
     |----|----|
