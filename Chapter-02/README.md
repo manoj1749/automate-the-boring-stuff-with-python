@@ -5,24 +5,23 @@
 - The three Boolean operators are and, or & not.
 ### 3.    
 |**and-operator**|**value**|
-    |----|----|
-    |False and False|False|
-    |False and True|False|
-    |True and True|True|
-    |True and False|False|
-    
-   
+|----|----|
+|False and False|False|
+|False and True|False|
+|True and True|True|
+|True and False|False|
+       
 |**or-operator**|**value**|
-    |----|----|
-    |False or False|False|
-    |False or True|True|
-    |True or True|True|
-    |True or False|True|
+|----|----|
+|False or False|False|
+|False or True|True|
+|True or True|True|
+|True or False|True|
    
 |**not-operator**|**value**|
-    |----|----|
-    |not True|False|
-    |not False|True|
+|----|----|
+|not True|False|
+|not False|True|
 
 ### 4. 
    ```python
