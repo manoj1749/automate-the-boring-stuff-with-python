@@ -32,7 +32,7 @@
     (True and True) and (True == False)
     (not False) or (not True)
     ```
-> - Answer
+- Answer
    ```python
    (5 > 4) and (3 == 5) evaluates to False.
    not (5 > 4) evaluates to False.
@@ -59,10 +59,10 @@ if spam == 10:
     print('spam')
 print('spam')
 ```
->Answer
->> - The 1st block of code starts at print('eggs') line and in this block the other 2 blocks are there, 2nd block of code is print('bacon') which is a single line and 3rd block od code is print('spam') which is also a single line.
+Answer
+> - The 1st block of code starts at print('eggs') line and in this block the other 2 blocks are there, 2nd block of code is print('bacon') which is a single line and 3rd block od code is print('spam') which is also a single line.
 ### 9. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
-> - Answer
+- Answer
  ```python
    if spam == 1:
        print('Hello')
@@ -78,13 +78,13 @@ print('spam')
 ### 12. What is the difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop?
 > - All these range functions do the same, the range(10) gives 10 integers starting from 0, which means 10 will not be included, where ranege(0,10) the functions tells to start calling from 0 to 10(not including 10), similarly range(0,10,1) does the same but it mentions that it should increase by 1 for every time the loop comes to the start.
 ### 13. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
-> - Using for loop:
+- Using for loop:
     ```python
     for i in range(1,11):
           print(i)
     ```
-    Using while loop:
-    ```
+- Using while loop:
+    ```python
     i = 0
     while i<10:
          i = i + 1
