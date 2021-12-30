@@ -4,7 +4,7 @@
 ### 2. hehe
 - The three Boolean operators are and, or & not.
 ### 3.    
-    |**and-operator**|**value**|
+|**and-operator**|**value**|
     |----|----|
     |False and False|False|
     |False and True|False|
@@ -12,14 +12,14 @@
     |True and False|False|
     
    
-    |**or-operator**|**value**|
+|**or-operator**|**value**|
     |----|----|
     |False or False|False|
     |False or True|True|
     |True or True|True|
     |True or False|True|
    
-    |**not-operator**|**value**|
+|**not-operator**|**value**|
     |----|----|
     |not True|False|
     |not False|True|
