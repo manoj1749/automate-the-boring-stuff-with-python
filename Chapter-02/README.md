@@ -1,9 +1,9 @@
 ## Solutions for practice questions in Chapter-2
-1. 
+### 1. 
     > - The two values in Boolean data type are True and False, they were written with their first letter in uppercase and remaining letters in lowercases like - True, False.
-2. 
+### 2. 
     > - The three Boolean operators are and, or & not.
-3.    
+### 3.    
     |**and-operator**|**value**|
     |----|----|
     |False and False|False|
@@ -24,12 +24,15 @@
     |not True|False|
     |not False|True|
 
-4. (5 > 4) and (3 == 5) evaluates to False.
+### 4. 
+   ```python
+   (5 > 4) and (3 == 5) evaluates to False.
    not (5 > 4) evaluates to False.
    (5 > 4) or (3 == 5) evaluates to True.
    not ((5 > 4) or (3 == 5)) evaluates to False.
    (True and True) and (True == False) evaluates to False.
    (not False) or (not True) evaluates to True.
+   ```
 5. The six comparison operators are == , != , > , >= , < , <= .
 6. The equal to (==) operator is used for comparision, whereas assignment operator (=) is used for assigning values to variables and all.
 7. A Condition is used in a expression in flow control statements. These are evaluated to a boolean values(True, False).
