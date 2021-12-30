@@ -5,23 +5,23 @@
     > - The three Boolean operators are and, or & not.
 3. 
    > - |**and-operator**|**value**|
-   |----|----|
-   |False and False|False|
-   |False and True|False|
-   |True and True|True|
-   |True and False|False|
+       |----|----|
+       |False and False|False|
+       |False and True|False|
+       |True and True|True|
+       |True and False|False|
    
-   |**or-operator**|**value**|
-   |----|----|
-   |False or False|False|
-   |False or True|True|
-   |True or True|True|
-   |True or False|True|
+       |**or-operator**|**value**|
+       |----|----|
+       |False or False|False|
+       |False or True|True|
+       |True or True|True|
+       |True or False|True|
    
-   |**not-operator**|**value**|
-   |----|----|
-   |not True|False|
-   |not False|True|
+       |**not-operator**|**value**|
+       |----|----|
+       |not True|False|
+       |not False|True|
 
 4. (5 > 4) and (3 == 5) evaluates to False.
    not (5 > 4) evaluates to False.
