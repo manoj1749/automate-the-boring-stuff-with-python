@@ -7,7 +7,8 @@
    ```
    As the spam contains [2, 4, 6, 8, 10], and we need add 'hello' as the third value, as the 3rd place in the list has an index value 2. So it can be done by using spam[2]='hello' statement.
    ```
-For the following three questions, let’s say spam contains the list ['a', 'b', 'c', 'd'].
+- For the following three questions, let’s say spam contains the list ['a', 'b', 'c', 'd'].
+
 3. What does spam[int(int('3' * 2) // 11)] evaluate to?
     ```
     as '3'*2 is 33 as '3' is a string and 33//11=3 and converting into integer it looks like, spam[3]. As spam =  ['a', 'b', 'c', 'd'], then spam[3] = 'd'.
@@ -20,7 +21,8 @@ For the following three questions, let’s say spam contains the list ['a', 'b',
     ```
     spam[:2] slices the first 2 characters in the list, therefore spam[:2]= ['a', 'b']
     ```
-For the following three questions, let’s say bacon contains the list [3.14, 'cat', 11, 'cat', True].
+- For the following three questions, let’s say bacon contains the list [3.14, 'cat', 11, 'cat', True].
+
 6. What does bacon.index('cat') evaluate to?
     ```
     As bacon = [3.14, 'cat', 11, 'cat', True]. And using the index() function we can find the index of a string or character in a list which we need. Such bacon.index('cat')=1
