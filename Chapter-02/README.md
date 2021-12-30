@@ -11,14 +11,14 @@
        |True and True|True|
        |True and False|False|
    
-       |**or-operator**|**value**|
+   > - |**or-operator**|**value**|
        |----|----|
        |False or False|False|
        |False or True|True|
        |True or True|True|
        |True or False|True|
    
-       |**not-operator**|**value**|
+    > - |**not-operator**|**value**|
        |----|----|
        |not True|False|
        |not False|True|
