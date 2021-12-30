@@ -1,14 +1,14 @@
 ## Solutions for practice questions in Chapter-3
 ### 1. Why are functions advantageous to have in your programs?
-    > - To reduce the duplicating the code, we use functions. Whenever we decide to change the code, then we need to change the each and every code, instead of it defining functions makes it easier.
+> - To reduce the duplicating the code, we use functions. Whenever we decide to change the code, then we need to change the each and every code, instead of it defining functions makes it easier.
 ### 2. When does the code in a function execute: when the function is defined or when the function is called?
-    > - The code in a function runs when it is called.
+> - The code in a function runs when it is called.
 ### 3. What statement creates a function?
-    > - The 'def' statement creates a function.
+> - The 'def' statement creates a function.
 ### 4. What is the difference between a function and a function call?
-    > - A function is what we define using 'def' statement and contains the code which needs to be executed. And a function call is when a fucntion defined is called and it gets executed.
+> - A function is what we define using 'def' statement and contains the code which needs to be executed. And a function call is when a fucntion defined is called and it gets executed.
 ### 5. How many global scopes are there in a Python program? How many local scopes?
-    > - There is only one global scope, whereas one local function will be assigned for a founction when it is called.
+> - There is only one global scope, whereas one local function will be assigned for a founction when it is called.
 ### 6. What happens to variables in a local scope when the function call returns?
 > - When a function returns, the all variables stored in it gets forgotten as the scope containing these varibales gets destroyed.
 ### 7. What is a return value? Can a return value be part of an expression?
