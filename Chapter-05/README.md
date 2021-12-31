@@ -2,7 +2,10 @@
 ### 1.  What does the code for an empty dictionary look like?
 > - An empty dictionary is shown as {}.   
 ### 2. What does a dictionary value with a key 'foo' and a value 42 look like?
-> - 
+> - The dictionary value looks like
+```python
+{'foo':42}
+```
 ### 3. What is the main difference between a dictionary and a list?
 > - 
 ### 4. What happens if you try to access spam['foo'] if spam is {'bar': 100}?
