@@ -24,7 +24,8 @@ if 'color' not in spam:
 spam.setdefault('color','black')
 ```
 ### 8. What module and function can be used to “pretty print” dictionary values?
-> - For 'pretty print function pprint module is needed.
+> - For 'pretty print function pprint module is needed. pprint() function is needed.
+- The commands required are
 ```python
 import pprint #module required for pretty print
 ```
