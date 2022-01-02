@@ -7,9 +7,9 @@
 {'foo':42}
 ```
 ### 3. What is the main difference between a dictionary and a list?
-> - Dictionaries are unordered, whereas Lists are ordtelsu ered.
+> - Dictionaries are unordered, whereas Lists are ordered. As dictionaries are not ordered as lists, they can't be sliced.
 ### 4. What happens if you try to access spam['foo'] if spam is {'bar': 100}?
-> - 
+> - It shows an KeyError as the key 'foo' is not there in the dictionary.
 ### 5.  If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and 'cat' in spam.keys()?
 > - 
 ### 6. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and 'cat' in spam.values()?
