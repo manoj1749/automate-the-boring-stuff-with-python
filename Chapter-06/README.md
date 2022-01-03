@@ -1,14 +1,14 @@
 ## Solutions for practice questions in Chapter-6
 ### 1. What are escape characters?
-> - 
+> - Escape characters are used in string values to use characters which are impossible to put into a string.
 ### 2. What do the \n and \t escape characters represent?
-> - 
+> - \n represents newline (line break), \t represents Tab.
 ### 3. How can you put a \ backslash character in a string?
-> - 
+> - The \\ escape character represets a backslash character.
 ### 4. The string value "Howl's Moving Castle" is a valid string. Why isn’t it a problem that the single quote character in the word Howl's isn’t escaped?
-> - 
+> - The single quote in Howl's didn't cause any problem beacuse the complete strins is being started and ended woth double-quotes(").
 ### 5. If you don’t want to put \n in your string, how can you write a string with newlines in it?
-> - 
+> - By using multi-line strings we can write a string with newlines without \n escape character.
 ### 6. What do the following expressions evaluate to?
 ```python
 'Hello, world!'[1]
@@ -43,7 +43,7 @@
 ```python
 'Remember, remember, the fifth of November.'.split()
 ```
-> - 
+> - ['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.']
 ```python
 '-'.join('There can be only one.'.split())
 ```
@@ -51,4 +51,4 @@
 ### 9. What string methods can you use to right-justify, left-justify, and center a string?
 > - 
 ### 10. How can you trim whitespace characters from the beginning or end of a string?
-> - 
+> - We can trim the white-spaces from the beginning and ending of a string useing lstrip() and rstrip() functions.
