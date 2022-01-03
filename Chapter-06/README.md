@@ -12,13 +12,19 @@
 ### 6. What do the following expressions evaluate to?
 ```python
 'Hello, world!'[1]
-'Hello, world!'[0:5]
-'Hello, world!'[:5]
-'Hello, world!'[3:]
 ```
 > - 'Hello, world!'[1] acceses the character from index-1 which will be 'e'
+```python
+'Hello, world!'[0:5]
+```
 > -'Hello, world!'[0:5] acceses the character from index-0 upto all the characters before index-5(character in index-5 is not included) which will be 'Hello'
+```python
+'Hello, world!'[:5]
+```
 > - 'Hello, world!'[:5] acceses the character before index-5 which will be 'Hello'
+```python
+'Hello, world!'[3:]
+```
 > - 'Hello, world!'[3:] acceses the character from index-3 which will be 'lo, world!'
 ### 7. What do the following expressions evaluate to?
 ```python
