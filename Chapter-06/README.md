@@ -16,17 +16,26 @@
 'Hello, world!'[:5]
 'Hello, world!'[3:]
 ```
-> - 
+> - 'Hello, world!'[1] acceses the character from index-1 which will be 'e'
+> -'Hello, world!'[0:5] acceses the character from index-0 upto all the characters before index-5(character in index-5 is not included) which will be 'Hello'
+> - 'Hello, world!'[:5] acceses the character before index-5 which will be 'Hello'
+> - 'Hello, world!'[3:] acceses the character from index-3 which will be 'lo, world!'
 ### 7. What do the following expressions evaluate to?
 ```python
 'Hello'.upper()
 'Hello'.upper().isupper()
 'Hello'.upper().lower()
 ```
-> - 
+> - 'Hello'.upper() converts the complete string into uppercase letters, which returns with string 'HELLO'
+> - 'Hello'.upper().isupper() coverts the complete string to uppercase letters and checks whether the all characters in the string are in uppercase are not, which returns with a boolean value 'True'
+> - 'Hello'.upper().lower() coverts the complete string to uppercase letters and again coverts the complete string to lowercase letters, which returns with a string 'hello'
 ### 8. What do the following expressions evaluate to?
-- 'Remember, remember, the fifth of November.'.split()
-- '-'.join('There can be only one.'.split())
+```python
+'Remember, remember, the fifth of November.'.split()
+```
+```python
+'-'.join('There can be only one.'.split())
+```
 > - 
 ### 9. What string methods can you use to right-justify, left-justify, and center a string?
 > - 
