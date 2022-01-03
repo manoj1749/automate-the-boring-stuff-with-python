@@ -23,16 +23,21 @@
 ### 7. What do the following expressions evaluate to?
 ```python
 'Hello'.upper()
-'Hello'.upper().isupper()
-'Hello'.upper().lower()
 ```
 > - 'Hello'.upper() converts the complete string into uppercase letters, which returns with string 'HELLO'
+```python
+'Hello'.upper().isupper()
+```
 > - 'Hello'.upper().isupper() coverts the complete string to uppercase letters and checks whether the all characters in the string are in uppercase are not, which returns with a boolean value 'True'
+```python
+'Hello'.upper().lower()
+```
 > - 'Hello'.upper().lower() coverts the complete string to uppercase letters and again coverts the complete string to lowercase letters, which returns with a string 'hello'
 ### 8. What do the following expressions evaluate to?
 ```python
 'Remember, remember, the fifth of November.'.split()
 ```
+> - 
 ```python
 '-'.join('There can be only one.'.split())
 ```
