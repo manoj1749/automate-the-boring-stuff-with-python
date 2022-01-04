@@ -43,14 +43,11 @@
 ```python
 'Remember, remember, the fifth of November.'.split()
 ```
-> - ```python ['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.'] ```
-
+> - The split function divides the given complete string and splits at whitespaces, and returns with a list of strings --> ['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.']
 ```python
 '-'.join('There can be only one.'.split())
 ```
-> - ```python 'There-can-be-only-one.'
-> - 'There-can-be-only-one.'
-> - ``` 
+> - 
 ### 9. What string methods can you use to right-justify, left-justify, and center a string?
 > - 
 ### 10. How can you trim whitespace characters from the beginning or end of a string?
