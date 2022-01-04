@@ -43,13 +43,12 @@
 ```python
 'Remember, remember, the fifth of November.'.split()
 ```
-> - 
-```python
-['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.']
-```
+> - ```python
+    ['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.']
+    ```
 
 > - ```python
-    '-'.join('There can be only one.'.split())
+     '-'.join('There can be only one.'.split())
     ```
 > - 
 ```python
