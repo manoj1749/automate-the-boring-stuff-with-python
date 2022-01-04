@@ -48,7 +48,7 @@
 ```python
 '-'.join('There can be only one.'.split())
 ```
-> - ```python
+> - ```python 'There-can-be-only-one.'
 > - 'There-can-be-only-one.'
 > - ``` 
 ### 9. What string methods can you use to right-justify, left-justify, and center a string?
