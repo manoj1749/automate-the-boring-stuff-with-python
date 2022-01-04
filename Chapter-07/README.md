@@ -4,11 +4,11 @@
 ### 2. Why are raw strings often used when creating Regex objects?
 > - Raw strings are used because the escape characters like backslashes(\) and all can't be escaped.
 ### 3. What does the search() method return?
-> - The search() function searches for the given string and returns with it match object.
+> - The search() function searches the given string and returns with it match object of the regex object.
 ### 4. How do you get the actual strings that match the pattern from a Match object?
-> - 
+> - Using group() function we can get the actual string and match the pattern from a match object.
 ### 5. In the regex created from r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group 0 cover? Group 1? Group 2?
-> - 
+> - In the given regex, group(0) or nothing covers the whole match, whereas group(1) covers the first part in paranthesis and group(2) covers the second part in paranthesis.
 ### 6. Parentheses and periods have specific meanings in regular expression syntax. How would you specify that you want a regex to match actual parentheses and period characters?
 > - 
 ### 7. The findall() method returns a list of strings or a list of tuples of strings. What makes it return one or the other?
