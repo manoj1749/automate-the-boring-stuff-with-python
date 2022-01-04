@@ -47,8 +47,8 @@
 ```python
 '-'.join('There can be only one.'.split())
 ```
-> - 
+> - The split function divides the given complete string and splits at whitespaces, where as join function joins the list with given parameter as here given parameter is '-', it return with a string --> 'There-can-be-only-one.'
 ### 9. What string methods can you use to right-justify, left-justify, and center a string?
-> - 
+> - For right-justify, left-justify and center a string we use rjust(), ljust(), and center() functions on the string.
 ### 10. How can you trim whitespace characters from the beginning or end of a string?
 > - We can trim the white-spaces from the beginning and ending of a string useing lstrip() and rstrip() functions.
