@@ -1,10 +1,10 @@
 ## Solutions for practice questions in Chapter-7
 ### 1. What is the function that creates Regex objects?
-> - 
+> - The re.complie() function returns with Regex objects when a value is passed through it.
 ### 2. Why are raw strings often used when creating Regex objects?
-> - 
+> - Raw strings are used because the escape characters like backslashes(\) and all can't be escaped.
 ### 3. What does the search() method return?
-> - 
+> - The search() function searches for the given string and returns with it match object.
 ### 4. How do you get the actual strings that match the pattern from a Match object?
 > - 
 ### 5. In the regex created from r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group 0 cover? Group 1? Group 2?
